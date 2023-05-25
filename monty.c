@@ -1,9 +1,7 @@
 #include "monty.h"
 
-FILE *fd;
-
 /**
- * main - function
+ * main - entry point of program
  * @argc: input
  * @argv: input
  * Return: int
