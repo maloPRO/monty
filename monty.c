@@ -1,6 +1,5 @@
 #include "monty.h"
 
-FILE *fd;
 
 /**
  * main - entry point of program
