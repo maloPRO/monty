@@ -10,6 +10,8 @@
 void print_error(int error, unsigned int line_number, char *opcode,
 		stack_t *stack)
 {
+	FILE *fd = NULL;
+
 	free_dlistint(stack);
 	switch (error)
 	{

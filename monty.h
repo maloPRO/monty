@@ -13,7 +13,7 @@
 #define MAX_BUFFER 112024
 #define UNUSED(x) (void)(x)
 
-FILE *fd;
+extern FILE *fd;
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
