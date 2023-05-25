@@ -7,10 +7,10 @@
  * @argv: input
  * Return: int
  */
+FILE *fd;
+
 int main(int argc, char **argv)
 {
-	FILE *fd;
-
 	char instruct_buff[MAX_BUFFER];
 	unsigned int line_number = 0;
 	stack_t *stack = NULL;
