@@ -1,9 +1,7 @@
 #include "monty.h"
 
-
-
 /**
- * mod - func
+ * mod - modulo func
  * @stack: input
  * @line_number: input
  */
@@ -18,11 +16,8 @@ void mod(stack_t **stack, unsigned int line_number)
 	pop(stack, line_number);
 }
 
-
-
-
 /**
- * pchar - func
+ * pchar - pchar func
  * @stack: input
  * @line_number: input
  */
@@ -40,10 +35,8 @@ void pchar(stack_t **stack, unsigned int line_number)
 	putchar('\n');
 }
 
-
-
 /**
- * pstr - func
+ * pstr - pstr function
  * @stack: input
  * @line_number: input
  */
@@ -66,8 +59,3 @@ void pstr(stack_t **stack, unsigned int line_number)
 	}
 	putchar('\n');
 }
-
-
-
-
-

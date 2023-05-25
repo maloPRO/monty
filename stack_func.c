@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * push - func
+ * push - push function
  * @stack: input
  * @line_number: input
  */
@@ -31,7 +31,7 @@ void push(stack_t **stack, unsigned int line_number)
 
 
 /**
- * pall - func
+ * pall - print all
  * @stack: input
  * @line_number: input
  */
@@ -50,7 +50,7 @@ void pall(stack_t **stack, unsigned int line_number)
 
 
 /**
- * pint - func
+ * pint - frint top
  * @stack: input
  * @line_number: input
  */

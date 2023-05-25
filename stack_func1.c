@@ -2,7 +2,7 @@
 
 
 /**
- * add - func
+ * add - add function
  * @stack: input
  * @line_number: input
  */
@@ -19,7 +19,7 @@ void add(stack_t **stack, unsigned int line_number)
 
 
 /**
- * nop - func
+ * nop -null func
  * @stack: input
  * @line_number: input
  */
@@ -33,7 +33,7 @@ void nop(stack_t **stack, unsigned int line_number)
 
 
 /**
- * sub - func
+ * sub - subtract function
  * @stack: input
  * @line_number: input
  */
@@ -50,7 +50,7 @@ void sub(stack_t **stack, unsigned int line_number)
 
 
 /**
- * divide - func
+ * divide - divide function
  * @stack: input
  * @line_number: input
  */
@@ -81,7 +81,3 @@ void mul(stack_t **stack, unsigned int line_number)
 	(*stack)->next->n *= (*stack)->n;
 	pop(stack, line_number);
 }
-
-
-
-

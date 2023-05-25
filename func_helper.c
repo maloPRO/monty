@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * is_integer - function
+ * is_integer - check if int
  * @str: input
  * Return: int
  */
@@ -20,7 +20,7 @@ int is_integer(char *str)
 
 
 /**
- * is_empty - function
+ * is_empty - check if is empty
  * @ptr: input
  * Return: int
  */
@@ -56,5 +56,3 @@ int is_ascii(int ascii)
 {
 	return (ascii >= 0 && ascii <= 127);
 }
-
-
